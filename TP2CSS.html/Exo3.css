@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #0817e9; 
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.main-wrapper {
+    display: flex;
+    min-height: 350px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #ad228bc4; 
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.content-area {
+    width: 80%;
+    background-color: #ffcc00; 
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0bc915; 
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+}

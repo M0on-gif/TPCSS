@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #00d8ff; 
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.main-wrapper {
+    display: flex;
+    min-height: 400px;
+}
+
+.sidebar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-haut {
+    background-color: #70c732; 
+    color: black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.menu-bas {
+    background-color: #ba76cb; 
+    color: black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.content-area {
+    width: 75%;
+    background-color: #ffcc00; 
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.top-content {
+    display: flex;
+    gap: 15px;
+}
+
+.text-block {
+    flex: 1;
+}
+
+.bloc-news {
+    background-color: #ff3300; 
+    color: black;
+    width: 30%;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bottom-content {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #2be482; 
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.phrase-rouge {
+    color: red;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.phrase-bleue {
+    color: blue;
+    font-size: 20px;
+    margin: 0;
+}
